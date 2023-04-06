@@ -25,7 +25,8 @@ namespace Git_Project.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            //new branch changes
+            return View("Prerna");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
